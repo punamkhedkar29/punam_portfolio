@@ -1,0 +1,216 @@
+body {
+    margin: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+}
+
+.navbar-section {
+    text-align: center;
+}
+
+.span-element {
+    color: orange;
+}
+
+.hero-section {
+    text-align: center;
+}
+
+.my-info h2 {
+    font-size: 1.3rem;
+    margin: auto;
+}
+
+.my-info p {
+    max-width: 300px;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+.hire-button {
+    height: 40px;
+    width: 120px;
+    margin-top: 2rem;
+    border-radius: 25px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hire-button:hover {
+    background-color: white;
+    color: orange;
+}
+
+.hero-section div>h2 {
+    color: orange;
+    font-weight: bold;
+}
+
+.back-btn {
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+
+.my-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.my-info img {
+    height: 16rem;
+    border-radius: 30px;
+    border: 4px solid orange;
+}
+
+.info-text {
+    max-width: 400px;
+    text-align: left;
+}
+
+.info-text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.info-text h2 {
+    color: orange;
+    margin-top: 1rem;
+}
+
+.cards {
+    margin-top: 4rem;
+}
+
+.cards div {
+    border: 1px solid #ddd;
+    margin: 2rem auto;
+    max-width: 850px;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.cards h2 {
+    color: orange;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+}
+
+.cards p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.cards ul {
+    padding-left: 1.2rem;
+}
+
+.cards li {
+    margin-bottom: 8px;
+}
+
+@media (max-width:1024px) {
+
+    body {
+        margin: 2rem;
+    }
+
+    .my-info {
+        gap: 2rem;
+    }
+
+    .my-info img {
+        height: 14rem;
+    }
+
+    .info-text {
+        max-width: 350px;
+    }
+
+    .cards div {
+        max-width: 700px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    body {
+        margin: 1.5rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .my-info {
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .info-text {
+        text-align: center;
+    }
+
+    .info-text p {
+        font-size: 1.1rem;
+    }
+
+    .cards div {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+
+}
+
+@media (max-width:480px) {
+
+    body {
+        margin: 1rem;
+    }
+
+    .hero-section h1 {
+        font-size: 1.6rem;
+    }
+
+    .my-info img {
+        height: 12rem;
+    }
+
+    .info-text p {
+        font-size: 1rem;
+    }
+
+    .cards div {
+        padding: 1.2rem;
+    }
+
+    .hire-button {
+        width: 100px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+}
